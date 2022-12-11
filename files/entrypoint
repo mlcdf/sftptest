@@ -95,5 +95,5 @@ if $startSshd; then
     exec /usr/sbin/sshd -D -e
 else
     log "Executing $*"
-    exec "$@"
+    "$@"
 fi
