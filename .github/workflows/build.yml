@@ -29,5 +29,5 @@ jobs:
             ghcr.io/mlcdf/sftptest
           labels: |
             org.opencontainers.image.revision=${{ github.sha }}
-          cache-from: type=registry,ref=ghcr.io/mlcdf/www:buildcache
-          cache-to: type=registry,ref=ghcr.io/mlcdf/www:buildcache,mode=max
+          cache-from: type=registry,ref=ghcr.io/mlcdf/sftptest:buildcache
+          cache-to: type=registry,ref=ghcr.io/mlcdf/sftptest:buildcache,mode=max
