@@ -1,6 +1,7 @@
 name: "Push image to GitHub Registry"
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
